@@ -1,0 +1,33 @@
+.cover {
+    max-width: 1184px;
+    margin: 92px auto 0;
+    background-image: url(../../images/__cover.jpg);
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+.cover::before {
+    content: '';
+    opacity: 0.30000001192092896;
+    background-color: #2A2C2F;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: opacity 0.4s linear;
+  }
+  
+.cover:hover::before {
+    opacity: 0.800000011920929;
+  }
+
+@media screen and (max-width: 320px) {
+    .cover {
+      background-size: contain;
+      margin-top: 66px;
+    }
+}
+  

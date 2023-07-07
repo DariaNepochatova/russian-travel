@@ -1,0 +1,36 @@
+.cover__content {
+    min-height: 740px;
+    padding-top: 245px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .cover__content {
+      min-height: 640px;
+      padding-top: 195px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .cover__content {
+        min-height: 480px;
+        padding-top: 115px;
+      }
+    }
+
+  @media screen and (max-width: 552px) {
+        .cover__content {
+          padding-top: 141px;
+        }
+    }
+
+  @media screen and (max-width: 320px) {
+        .cover__content {
+          padding-top: 33px;
+          min-height: 200px;
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+    }
+      

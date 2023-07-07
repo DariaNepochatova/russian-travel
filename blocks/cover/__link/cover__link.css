@@ -1,0 +1,6 @@
+.cover__link {
+    display: block;
+    z-index: 2;
+    cursor: pointer;
+    text-decoration: none;
+  }
