@@ -1,6 +1,6 @@
 @media screen and (max-width: 743px) {
     .places__main-text {
-      font-family: Inter, sans-serif;
+      font-family: Inter, Arial, sans-serif;
       width: 90%;
       justify-self: center;
     }

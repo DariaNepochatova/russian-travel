@@ -6,9 +6,16 @@
     flex-wrap: wrap;
   }
 
+  @media screen and (max-width: 1024px) {
+    .footer {
+      max-width: 928px;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     .footer {
       margin-top: 88px;
+      max-width: 720px;
     }
   }
 
